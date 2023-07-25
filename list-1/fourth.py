@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('cyberbullying_tweets.csv')
+data = pd.read_csv('../datasets/cyberbullying_tweets.csv')
 
 data['comprimento'] = data['tweet_text'].apply(lambda x: len(x))
 
