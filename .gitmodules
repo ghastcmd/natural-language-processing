@@ -1,3 +1,6 @@
 [submodule "vendor/bertopic"]
 	path = vendor/bertopic
 	url = https://github.com/MaartenGr/BERTopic
+[submodule ".\\vendor\\transformers"]
+	path = .\\vendor\\transformers
+	url = https://github.com/huggingface/transformers
